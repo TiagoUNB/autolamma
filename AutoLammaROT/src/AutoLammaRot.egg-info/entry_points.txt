@@ -1,0 +1,2 @@
+[console_scripts]
+Lamma = Lamma.cli:app

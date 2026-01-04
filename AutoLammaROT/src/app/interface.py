@@ -84,7 +84,7 @@ class AutoLammaGUI:
                             if f_pressed == MAX_TRIES:
                                 self.stop_bot()
                             x_anterior = None
-                            time.sleep(1) # Tempo para reset da animação do jogo
+                            time.sleep(0.1) # Tempo para reset da animação do jogo
                             continue
 
                     x_anterior = x_atual
@@ -113,4 +113,5 @@ if __name__ == "__main__":
         sys.exit(0)
 
     root.protocol("WM_DELETE_WINDOW", on_closing)
+
     root.mainloop()
